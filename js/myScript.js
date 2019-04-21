@@ -41,8 +41,8 @@ var svg = d3.select('#vis').append('svg')
 svg.call(tip);
 
 var projection = d3.geo.albersUsa()
-    .scale(900) // mess with this if you want
-    .translate([width / 2, height / 2]);
+    .scale(1000) // mess with this if you want
+    .translate([width / 2, height / 3.2]);
 
 var path = d3.geo.path()
     .projection(projection);
