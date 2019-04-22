@@ -109,3 +109,9 @@ li a:hover:not(.active) {
     margin: 0 auto;
     max-width: 900px;
 }
+.paper {
+  text-align: center;
+}
+.video {
+  text-align: center;
+}
